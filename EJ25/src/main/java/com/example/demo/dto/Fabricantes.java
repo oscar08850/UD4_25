@@ -20,7 +20,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Fabricantes {
 
-	//Atributos de la entidad Empleado
+	//Atributos de la entidad Fabricante
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -70,6 +70,6 @@ public class Fabricantes {
 	//To string personalizado
 	@Override
 	public String toString() {
-		return "Empleado [id = " + id +", nombre = " + nombre +"] ";
+		return "Fabricante [id = " + id +", nombre = " + nombre +"] ";
 	}
 }

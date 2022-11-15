@@ -19,11 +19,12 @@ public class Articulos {
 	private Long id;
 	private String nombre;
 	private int precio;
+	
 
 	@ManyToOne
 	@JoinColumn(name = "fabricante_id")
 	private Fabricantes fabricantes;
-
+ 
 	// Constructores
 
 	public Articulos() {
